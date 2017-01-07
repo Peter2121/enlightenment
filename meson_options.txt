@@ -313,3 +313,11 @@ option('conf-window-remembers',
 	type: 'boolean',
 	value: true,
 	description: 'enable conf-window-remembers module: (default=true)')
+option('weather',
+	type: 'boolean',
+	value: true,
+	description: 'enable weather module: (default=true)')
+option('openweathermap-api-key',
+	type: 'string',
+	value: '81947d7198f4efa1cc88080be5cc039a',
+	description: 'specify a custom openweathermap api key')

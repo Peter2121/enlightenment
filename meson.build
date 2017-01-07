@@ -340,6 +340,10 @@ if edje_cmd == ''
                         'bin', 'edje_cc')
 endif
 
+##### Openweather map API key
+openweathermap_api_key = get_option('openweathermap-api-key')
+config_h.set_quoted('OPENWEATHERMAP_API_KEY', openweathermap_api_key)
+
 subdir('src/bin')
 
 subdir('src/modules')

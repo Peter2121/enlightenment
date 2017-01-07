@@ -50,6 +50,7 @@ mods = [
   'luncher',
   'teamwork',
   'vkbd',
+  'weather',
 # modules have a custom binary as well
   'battery',
   'cpufreq',

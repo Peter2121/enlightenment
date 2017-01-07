@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Link
+Name=Weather
+Comment=Displaying current weather and prevision about it
+Icon=e-module-weather
+X-Enlightenment-ModuleType=utils

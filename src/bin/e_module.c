@@ -1059,6 +1059,7 @@ _e_module_whitelist_check(void)
       "policy_mobile",
       "geolocation",
       "xwayland",
+      "weather",
       NULL   // end marker
    };
 
