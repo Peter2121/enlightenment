@@ -434,7 +434,10 @@ _gadget_wizard_end(void *data, int id)
    E_Gadget_Config *zgc = data;
 
    zgc->id = id;
-   evas_object_smart_callback_call(zgc->site->layout, "gadget_site_unlocked", NULL);
+   if (zgc->site)
+     evas_object_smart_callback_call(zgc->site->layout, "gadget_site_unlocked", NULL);
+   else
+     ERR("No gadget site configured");
    e_comp_ungrab_input(1, 1);
    if (id > 0)
      {
